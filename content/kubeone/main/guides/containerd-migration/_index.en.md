@@ -86,4 +86,4 @@ Simple `systemctl disable --now docker` IS NOT ENOUGH, you will have to leave
 it running or uninstall completely!
 {{% /notice %}}
 
-[rolling-restart]: {{< ref "../../cheat-sheets/rollout-machinedeployment" >}}
+[rolling-restart]: {{< pref "/cheat-sheets/rollout-machinedeployment" >}}

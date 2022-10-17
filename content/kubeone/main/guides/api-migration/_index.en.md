@@ -34,7 +34,7 @@ kubeone config migrate --manifest kubeone.yaml
 {{% notice warning %}}
 It's strongly advised to compare the old and new manifests to ensure that no
 information is missing in the new manifest. If you see anything unexpected
-and not covered by the [The API Changelog]({{< ref "#the-api-changelog" >}}) portion of this document, please
+and not covered by the [The API Changelog]({{< pref "#the-api-changelog" >}}) portion of this document, please
 [file a new issue on GitHub](https://github.com/kubermatic/kubeone/issues/new?labels=kind%2Fbug&template=bug-report.md).
 {{% /notice %}}
 
@@ -82,7 +82,7 @@ If you are using the AssetConfiguration API to mitigate the issue with the
 CoreDNS image when using the overwrite registry feature, you can use the latest
 image loader script or [the mirror registries][mirror-registries] feature.
 
-[mirror-registries]: {{< ref "../mirror-registries" >}}
+[mirror-registries]: {{< pref "/guides/mirror-registries" >}}
 
 ### Packet to Equinix Metal rebranding
 

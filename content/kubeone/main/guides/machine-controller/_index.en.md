@@ -158,10 +158,10 @@ otherwise, your changes can get overwritten the next time you run KubeOne.
 {{% /notice %}}
 
 [machine-controller]: https://github.com/kubermatic/machine-controller
-[cluster-api]: {{< ref "../../architecture/concepts#cluster-api" >}}
-[machine-deployments]: {{< ref "../../architecture/concepts#machinedeployments" >}}
-[supported-providers]: {{< ref "../../architecture/supported-providers/" >}}
-[static-workers]: {{< ref "../static-workers" >}}
-[terraform-integration]: {{< ref "../../architecture/requirements/infrastructure-management/#terraform-integration" >}}
-[terraform-integration-workers]: {{< ref "../../references/terraform-integration/#kubeone_workers-reference" >}}
-[machine-controller-requirements]: {{< ref "../../architecture/requirements/machine-controller" >}}
+[cluster-api]: {{< pref "/introduction/concepts#cluster-api" >}}
+[machine-deployments]: {{< pref "/introduction/concepts#machinedeployments" >}}
+[supported-providers]: {{< pref "/introduction/supported-providers/" >}}
+[static-workers]: {{< pref "/guides/static-workers" >}}
+[terraform-integration]: {{< pref "/introduction/requirements/infrastructure-management/#terraform-integration" >}}
+[terraform-integration-workers]: {{< pref "/references/terraform-integration/#kubeone_workers-reference" >}}
+[machine-controller-requirements]: {{< pref "/introduction/requirements/machine-controller" >}}

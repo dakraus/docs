@@ -240,7 +240,7 @@ the [`addons`][addons] directory.
 [sprig-docs]: http://masterminds.github.io/sprig/
 [sprig-b64enc]: http://masterminds.github.io/sprig/encoding.html
 [addons]: https://github.com/kubermatic/kubeone/tree/main/addons
-[addons-api]: {{< ref "../../references/kubeone-cluster-v1beta2/#addons" >}}
+[addons-api]: {{< pref "/references/kubeone-cluster-v1beta2/#addons" >}}
 [embed-docs]: https://pkg.go.dev/embed
 [addons-list-url]: https://github.com/kubermatic/kubeone/tree/main/addons
 [backups_restic]: https://github.com/kubermatic/kubeone/tree/main/addons/backups-restic

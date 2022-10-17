@@ -81,7 +81,7 @@ In this guide, we will assume that you have used our [backups addon][backups-add
 to create and manage backups. You can also use any other solution, but for a
 successful recovery, you will need all files mentioned in this step.
 
-[backups-addon]: {{< ref "../../examples/addons-backup" >}}
+[backups-addon]: {{< pref "/examples/addons-backup" >}}
 {{% /notice %}}
 
 First, you need to instruct Restic how to access the S3 bucket containing
@@ -352,7 +352,7 @@ The provisioning process takes about 5-10 minutes. If the cluster endpoint
 the new cluster after some time. Otherwise, the machine-controller will create
 the new worker nodes.
 
-[backups-addon]: {{< ref "../../examples/addons-backup" >}}
-[manual-cluster-repair]: {{< ref "../manual-cluster-repair/" >}}
+[backups-addon]: {{< pref "/examples/addons-backup" >}}
+[manual-cluster-repair]: {{< pref "/guides/manual-cluster-repair/" >}}
 [etcd-faq]: https://github.com/etcd-io/etcd/blob/master/Documentation/faq.md
 [restic]: https://restic.net/

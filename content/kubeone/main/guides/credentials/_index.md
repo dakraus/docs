@@ -23,13 +23,13 @@ dedicated, non-administrator credentials whenever it's possible.
 
 {{% notice note %}}
 You can skip this document if you're deploying to bare-metal or provider that's
-not [natively supported]({{< ref "../../architecture/supported-providers/" >}}).
+not [natively supported]({{< pref "/introduction/supported-providers/" >}}).
 {{% /notice %}}
 
 {{% notice note %}}
 The credentials file is KubeOne-specific and it will **not** work with
 Terraform. If you are using Terraform, consider the
-[environment variables approach]({{< ref "#environment-variables" >}}) or check
+[environment variables approach]({{< pref "#environment-variables" >}}) or check
 the Terraform documentation for other authentication options.
 {{% /notice %}}
 
@@ -322,7 +322,7 @@ support for sourcing value using the `env:` prefix:
 | `hosts.ssh_agent_socket` | string | ""            | Socket to be used for SSH |
 
 [cloud-controller-manager]: https://kubernetes.io/docs/concepts/architecture/cloud-controller/
-[machine-controller]: {{< ref "../../architecture/concepts/#kubermatic-machine-controller" >}}
-[containerruntime-containerd]: {{< ref "../../references/kubeone-cluster-v1beta2/#containerruntimecontainerd" >}}
-[migrating-to-containerd]: {{< ref "../../guides/containerd-migration" >}}
-[environemnt-variables]: {{< ref "#environment-variables" >}}
+[machine-controller]: {{< pref "/introduction/concepts/#kubermatic-machine-controller" >}}
+[containerruntime-containerd]: {{< pref "/references/kubeone-cluster-v1beta2/#containerruntimecontainerd" >}}
+[migrating-to-containerd]: {{< pref "/guides/containerd-migration" >}}
+[environemnt-variables]: {{< pref "#environment-variables" >}}

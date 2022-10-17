@@ -21,7 +21,7 @@ usage out of the box.
 
 {{% notice note %}}
 Please check the
-[Production Recommendations]({{< ref "../../cheat-sheets/production-recommendations" >}})
+[Production Recommendations]({{< pref "/cheat-sheets/production-recommendations" >}})
 document for more details about making the example configs suitable for
 the production usage.
 {{% /notice %}}
@@ -185,10 +185,10 @@ may cause all resources to be recreated causing the **data loss**!
 
 [terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/mai/examples/terraform
 [github-releases]: https://github.com/kubermatic/kubeone/releases
-[getting-kubeone]: {{< ref "../../getting-kubeone" >}}
-[configuring-credentials]: {{< ref "../credentials" >}}
+[getting-kubeone]: {{< pref "/get-started/get-kubeone" >}}
+[configuring-credentials]: {{< pref "/guides/credentials" >}}
 [gobetween]: http://gobetween.io/
-[configuring-ssh]: {{< ref "../ssh" >}}
-[configuring-ssh-noagent]: {{< ref "../ssh#option-2-specify-private-key-in-the-terraform-output" >}}
-[infrastructure-management]: {{< ref "../../architecture/requirements/infrastructure-management" >}}
-[compatibility]: {{< ref "../../architecture/compatibility" >}}
+[configuring-ssh]: {{< pref "/guides/ssh" >}}
+[configuring-ssh-noagent]: {{< pref "/guides/ssh#option-2-specify-private-key-in-the-terraform-output" >}}
+[infrastructure-management]: {{< pref "/introduction/requirements/infrastructure-management" >}}
+[compatibility]: {{< pref "/introduction/compatibility" >}}

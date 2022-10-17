@@ -1,0 +1,15 @@
+{{- /*
+  DOCUMENTATION
+*/ -}}
+
+{{- $parts := split .Page.File.Dir "/" -}}
+{{- $product := index $parts 0 -}}
+{{- $version := index $parts 1 -}}
+{{- $path := .Get 0 }}
+{{- $versionedPath := printf "%s/%s/%s" $product $version $path | path.Clean }}
+
+{{- if hasPrefix $path "/" -}}
+  {{ ref .Page $versionedPath }}
+{{- else -}}
+  {{ ref .Page $path }}
+{{- end -}}
