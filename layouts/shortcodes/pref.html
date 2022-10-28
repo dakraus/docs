@@ -1,0 +1,22 @@
+{{- /*
+  Returns the absolute permalink to a product page.
+
+  Usage:
+    * If used with a single positional parameter, the parameter value is passed to Hugo's built-in shortcode `ref`.
+    * If used with named parameters (`product`, `version`, and `path`), the page path will be created dynamically with the parameter values and the passed to Hugo's built-in shortcode `ref`.
+*/ -}}
+
+{{- if .IsNamedParams -}}
+  {{- $parts := split .Page.File.Dir "/" -}}
+  {{- $product := .Get "product" | default (index $parts 0) -}}
+  {{- $version := .Get "version" | default (index $parts 1) -}}
+  {{- $path := .Get "path" }}
+
+  {{- if not $path -}}
+    {{- errorf "[%s]: required parameter 'pref.path' is not set - add the parameter to the shortcode" .Page.Path -}}
+  {{- end -}}
+
+  {{- ref .Page (printf "%s/%s/%s" $product $version $path) -}}
+{{- else -}}
+  {{- ref .Page (.Get 0) -}}
+{{- end -}}
