@@ -21,7 +21,7 @@ usage out of the box.
 
 {{% notice note %}}
 Please check the
-[Production Recommendations]({{< ref "../../cheat-sheets/production-recommendations" >}})
+[Production Recommendations]({{< pref path="cheat-sheets/production-recommendations" >}})
 document for more details about making the example configs suitable for
 the production usage.
 {{% /notice %}}
@@ -183,12 +183,12 @@ If you modify variables and/or `output.tf` file after running
 may cause all resources to be recreated causing the **data loss**!
 {{% /notice %}}
 
-[terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/mai/examples/terraform
+[compatibility]: {{< pref path="architecture/compatibility" >}}
+[configuring-credentials]: {{< pref path="guides/credentials" >}}
+[configuring-ssh]: {{< pref path="guides/ssh" >}}
+[configuring-ssh-noagent]: {{< pref path="guides/ssh#option-2-specify-private-key-in-the-terraform-output" >}}
+[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
 [github-releases]: https://github.com/kubermatic/kubeone/releases
-[getting-kubeone]: {{< ref "../../getting-kubeone" >}}
-[configuring-credentials]: {{< ref "../credentials" >}}
 [gobetween]: http://gobetween.io/
-[configuring-ssh]: {{< ref "../ssh" >}}
-[configuring-ssh-noagent]: {{< ref "../ssh#option-2-specify-private-key-in-the-terraform-output" >}}
-[infrastructure-management]: {{< ref "../../architecture/requirements/infrastructure-management" >}}
-[compatibility]: {{< ref "../../architecture/compatibility" >}}
+[terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/mai/examples/terraform

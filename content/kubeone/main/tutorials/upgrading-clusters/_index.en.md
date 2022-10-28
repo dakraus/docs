@@ -185,8 +185,8 @@ At the upgrade time, KubeOne ensures that the actual cluster configuration
 matches the expected configuration, and therefore the `upgrade`
 command can be used to modify cluster properties.
 
-[compatibility]: {{< ref "../../architecture/compatibility" >}}
+[compatibility]: {{< pref path="architecture/compatibility" >}}
 [k8s-skew]: https://kubernetes.io/docs/setup/version-skew-policy/
-[backups-addon]: {{< ref "../../examples/addons-backup" >}}
-[manifest]: {{< ref "../../architecture/concepts/#kubeone-configuration-manifest" >}}
-[tf-json]: {{< ref "../../architecture/requirements/infrastructure-management/#terraform-integration" >}}
+[backups-addon]: {{< pref path="examples/addons-backup" >}}
+[manifest]: {{< pref path="architecture/concepts/#kubeone-configuration-manifest" >}}
+[tf-json]: {{< pref path="architecture/requirements/infrastructure-management/#terraform-integration" >}}

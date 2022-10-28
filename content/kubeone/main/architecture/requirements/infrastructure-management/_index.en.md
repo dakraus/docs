@@ -22,7 +22,7 @@ example Terraform configs can be found in the [KubeOne's GitHub repository][terr
 {{% notice note %}}
 The example Terraform configurations are optimized for the CI and might not
 be production-ready out of the box. We advise checking the
-[Production Recommendations]({{< ref "../../../cheat-sheets/production-recommendations" >}})
+[Production Recommendations]({{< pref path="cheat-sheets/production-recommendations" >}})
 document for more details about making the example configurations suitable for
 the production usage.
 {{% /notice %}}
@@ -159,17 +159,17 @@ The needed `output.tf` file already comes with all our
 [terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/main/examples/terraform
 {{% /notice %}}
 
+[concepts]: {{< pref path="architecture/concepts#kubermatic-machine-controller" >}}
+[concepts-md]: {{< pref path="architecture/concepts#machinedeployments" >}}
+[concepts-mc]: {{< pref path="architecture/concepts#kubermatic-machine-controller" >}}
+[ha-lb-example]: {{< pref path="examples/ha-load-balancing" >}}
+[production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}
+[ssh]: {{< pref path="guides/ssh#sshd-requirements-on-instances" >}}
+[static-workers]: {{< pref path="guides/static-workers" >}}
+[supported-providers]: {{< pref path="architecture/supported-providers/" >}}
+[supported-os]: {{< pref path="architecture/compatibility/os-support-matrix/" >}}
+[terraform-reference]: {{< pref path="references/terraform-integration" >}}
 [kubeadm-sysreq]: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
-[ssh]: {{< ref "../../../guides/ssh#sshd-requirements-on-instances" >}}
-[supported-providers]: {{< ref "../../supported-providers/" >}}
-[supported-os]: {{< ref "../../compatibility/os-support-matrix/" >}}
-[terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/main/examples/terraform
 [machine-controller]: https://github.com/kubermatic/machine-controller
-[static-workers]: {{< ref "../../../guides/static-workers" >}}
-[concepts]: {{< ref "../../concepts#kubermatic-machine-controller" >}}
-[concepts-md]: {{< ref "../../concepts#machinedeployments" >}}
-[concepts-mc]: {{< ref "../../concepts#kubermatic-machine-controller" >}}
-[ha-lb-example]: {{< ref "../../../examples/ha-load-balancing" >}}
-[terraform-reference]: {{< ref "../../../references/terraform-integration" >}}
-[production-recommendations]: {{< ref "../../../cheat-sheets/production-recommendations" >}}
+[terraform-configs-github]: https://github.com/kubermatic/kubeone/tree/main/examples/terraform
 [vsphere-storage]: https://vsphere-csi-driver.sigs.k8s.io/

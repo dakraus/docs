@@ -30,7 +30,7 @@ clusters. We heavily advise taking the following actions:
     Kubernetes 1.22 or newer until a fixed etcd version is available from the
     etcd maintainers
  
-[addons-backup]: {{< ref "../../examples/addons-backup" >}}
+[addons-backup]: {{< pref path="examples/addons-backup" >}}
 
 ## Enabling Etcd Corruption Checks
 

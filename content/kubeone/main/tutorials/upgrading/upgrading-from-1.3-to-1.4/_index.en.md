@@ -147,7 +147,7 @@ switching to the upstream Kubernetes instead.
   to 1.23 will result in a validation error from KubeOne
 
 [changelog]: https://github.com/kubermatic/kubeone/blob/main/CHANGELOG.md#v140
-[v1beta2]: {{< ref "../../../guides/api-migration" >}}
-[compatibility]: {{< ref "../../../architecture/compatibility" >}}
+[v1beta2]: {{< pref path="guides/api-migration" >}}
+[compatibility]: {{< pref path="architecture/compatibility" >}}
 [centos-eol]: https://www.centos.org/centos-linux-eol/
 [addons]: https://github.com/kubermatic/kubeone/tree/mai/addons

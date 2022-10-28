@@ -10,7 +10,7 @@ enableToc = true
 The ContainerRegistry API is available only starting with KubeOne 1.4 and
 newer. Additionally, Docker supports only configuring the mirror registry for
 `docker.io` images. As an alternative, you can follow the
-[Overwriting Image Registries guide]({{< ref "../registry-configuration" >}})
+[Overwriting Image Registries guide]({{< pref path="guides/registry-configuration" >}})
 guide, however it's considered as legacy. We recommend upgrading to KubeOne 1.4
 and migrating to containerd.
 {{% /notice %}}
@@ -131,7 +131,7 @@ The credentials file is provided to the `kubeone apply` command using the
 kubeone apply --manifest kubeone.yaml --credentials credentials.yaml
 ```
 
-[containerreg-api]: {{< ref "../../references/kubeone-cluster-v1beta2#containerruntimecontainerd" >}}
-[containerruntime-docker]: {{< ref "../../references/kubeone-cluster-v1beta2#containerruntimedocker" >}}
-[containerruntime-containerd]: {{< ref "../../references/kubeone-cluster-v1beta2#containerruntimecontainerd" >}}
+[containerreg-api]: {{< pref path="references/kubeone-cluster-v1beta2#containerruntimecontainerd" >}}
+[containerruntime-docker]: {{< pref path="references/kubeone-cluster-v1beta2#containerruntimedocker" >}}
+[containerruntime-containerd]: {{< pref path="references/kubeone-cluster-v1beta2#containerruntimecontainerd" >}}
 [docker-reg-guide]: https://docs.docker.com/registry/

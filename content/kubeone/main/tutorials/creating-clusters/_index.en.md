@@ -506,7 +506,7 @@ resource_pool_name = "<resource-pool-name>"
 
 `template_name` is the name of the VM that will be used as a template for
 creating other VMs. It's expected that this VM already exists. Please check the
-[vSphere requirements document]({{< ref "../../architecture/requirements/machine-controller/vsphere/vsphere/" >}})
+[vSphere requirements document]({{< pref path="architecture/requirements/machine-controller/vsphere/vsphere" >}})
 for more details.
 
 #
@@ -648,7 +648,7 @@ Azure CCM fail to find underlying instances and add them to the appropriate
 Azure load balancer because the newly-created load balancer and control plane
 nodes are in different availability sets.
 
-Please check the [Production Recommendations]({{< ref "../../cheat-sheets/production-recommendations" >}})
+Please check the [Production Recommendations]({{< pref path="cheat-sheets/production-recommendations" >}})
 document for more details.
 
 ```yaml
@@ -1049,21 +1049,21 @@ and recommendations.
 * Learn more about Kubermatic machine-controller and how we use it to create
   worker nodes in [the following guide][machine-controller]
 
-[compatibility-providers]: {{< ref "../../architecture/supported-providers/" >}}
-[static-workers]: {{< ref "../../guides/static-workers" >}}
-[infrastructure-management]: {{< ref "../../architecture/requirements/infrastructure-management" >}}
+[azure-sa-setup]: {{< pref path="architecture/requirements/machine-controller/azure" >}}
+[cluster-reconciliation]: {{< pref path="architecture/cluster-reconciliation" >}}
+[compatibility-providers]: {{< pref path="architecture/supported-providers/" >}}
+[create-cluster-oidc]: {{< pref path="tutorials/creating-clusters-oidc" >}}
+[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
+[machine-controller]: {{< pref path="guides/machine-controller" >}}
+[production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}
+[static-workers]: {{< pref path="guides/static-workers" >}}
+[terraform-configs]: {{< pref path="guides/using-terraform-configs" >}}
+[unprovisioning-clusters]: {{< pref path="tutorials/unprovisioning-clusters" >}}
+[upgrading-clusters]: {{< pref path="tutorials/upgrading-clusters" >}}
+[access-clusters]: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
+[download-terraform]: https://www.terraform.io/downloads.html
+[install-terraform]: https://learn.hashicorp.com/tutorials/terraform/install-cli
+[maintenance mode]: https://kubernetes.io/releases/patch-releases/#support-period
 [metrics-server]: https://github.com/kubernetes-sigs/metrics-server
 [nodelocaldns]: https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/
-[machine-controller]: {{< ref "../../guides/machine-controller" >}}
-[getting-kubeone]: {{< ref "../../getting-kubeone" >}}
-[install-terraform]: https://learn.hashicorp.com/tutorials/terraform/install-cli
-[download-terraform]: https://www.terraform.io/downloads.html
-[terraform-configs]: {{< ref "../../guides/using-terraform-configs" >}}
-[cluster-reconciliation]: {{< ref "../../architecture/cluster-reconciliation" >}}
-[access-clusters]: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
-[upgrading-clusters]: {{< ref "../upgrading-clusters" >}}
-[unprovisioning-clusters]: {{< ref "../unprovisioning-clusters" >}}
-[production-recommendations]: {{< ref "../../cheat-sheets/production-recommendations" >}}
-[create-cluster-oidc]: {{< ref "../creating-clusters-oidc" >}}
-[azure-sa-setup]: {{< ref "../../architecture/requirements/machine-controller/azure" >}}
-[maintenance mode]: https://kubernetes.io/releases/patch-releases/#support-period

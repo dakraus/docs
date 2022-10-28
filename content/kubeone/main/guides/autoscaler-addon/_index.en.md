@@ -205,11 +205,11 @@ That is it! You have successfully deployed Kubernetes autoscaler on the KubeOne 
 * You can easily provision a Kubernetes cluster using [KubeOne here][cluster-creation]
 * You can find more information about deploying addons in the [Addons document][addons].
 
-[concepts]: {{< ref "../../architecture/concepts/" >}}
-[machine-controller]: {{< ref "../../guides/machine-controller/" >}}
-[addons]: {{< ref "../../guides/addons/" >}}
-[cluster-creation]: {{< ref "../../tutorials/creating-clusters/" >}}
-[step-5]: {{< ref "../../tutorials/creating-clusters/#step-5" >}}
-[embedded-addons]: {{< ref "../../guides/addons/#overriding-embedded-eddons" >}}
+[concepts]: {{< pref path="architecture/concepts/" >}}
+[machine-controller]: {{< pref path="guides/machine-controller/" >}}
+[addons]: {{< pref path="guides/addons/" >}}
+[cluster-creation]: {{< pref path="tutorials/creating-clusters/" >}}
+[step-5]: {{< pref path="tutorials/creating-clusters/#step-5" >}}
+[embedded-addons]: {{< pref path="guides/addons/#overriding-embedded-eddons" >}}
 [ca-faq]: https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md
 [ca-faq-what-is]: https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler

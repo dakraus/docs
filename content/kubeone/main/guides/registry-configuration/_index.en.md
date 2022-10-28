@@ -8,7 +8,7 @@ enableToc = true
 
 {{% notice warning %}}
 A newer version of this guide based on the ContainerRegistry API is available
-[here]({{< ref "../mirror-registries" >}}).
+[here]({{< pref path="guides/mirror-registries" >}}).
 {{% /notice %}}
 
 This guide describes how to overwrite image registries for images deployed by
@@ -138,7 +138,7 @@ when updating KubeOne, or otherwise, you might end up with a non-working
 cluster.
 {{% /notice %}}
 
-[regconfig-api]: {{< ref "../../references/kubeone-cluster-v1beta2#registryconfiguration" >}}
+[override-addons]: {{< pref path="guides/addons#overriding-embedded-eddons" >}}
+[regconfig-api]: {{< pref path="references/kubeone-cluster-v1beta2#registryconfiguration" >}}
 [docker-reg-guide]: https://docs.docker.com/registry/
 [img-loader]: https://github.com/kubermatic/kubeone/blob/main/hack/image-loader.sh
-[override-addons]: {{< ref "../addons#overriding-embedded-eddons" >}}

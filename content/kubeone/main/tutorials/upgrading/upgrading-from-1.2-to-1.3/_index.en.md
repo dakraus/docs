@@ -174,8 +174,8 @@ can resolve it in one of the following ways:
   `./addons`.
 
 [changelog]: https://github.com/kubermatic/kubeone/blob/main/CHANGELOG.md#v130
-[compatibility]: {{< ref "../../../architecture/compatibility" >}}
+[compatibility]: {{< pref path="architecture/compatibility" >}}
 [centos-eol]: https://www.centos.org/centos-linux-eol/
-[addons-api]: {{< ref "../../../guides/addons" >}}
+[addons-api]: {{< pref path="guides/addons" >}}
 [addons]: https://github.com/kubermatic/kubeone/tree/mai/addons
-[addons-override]: {{< ref "../../../guides/addons#overriding-embedded-eddons" >}}
+[addons-override]: {{< pref path="guides/addons#overriding-embedded-eddons" >}}

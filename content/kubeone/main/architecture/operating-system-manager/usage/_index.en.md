@@ -197,4 +197,4 @@ To perform this rotation for existing MachineDeployments please follow the guide
 
 - An update to `OperatingSystemProfile` will not result in an automatic rotation of the machines. This is an intentional design decision since an `OperatingSystemProfile` can be associated with multiple MachineDeployments. It is the user's responsibility to rotate the machines when the `OperatingSystemProfile` is updated. To perform this rotation for existing MachineDeployments please follow the guide at [Rolling Restart MachineDeploments][rolling-restart].
 
-[rolling-restart]: {{< ref "../../../cheat-sheets/rollout-machinedeployment" >}}
+[rolling-restart]: {{< pref path="cheat-sheets/rollout-machinedeployment" >}}

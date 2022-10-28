@@ -82,8 +82,6 @@ If you are using the AssetConfiguration API to mitigate the issue with the
 CoreDNS image when using the overwrite registry feature, you can use the latest
 image loader script or [the mirror registries][mirror-registries] feature.
 
-[mirror-registries]: {{< ref "../mirror-registries" >}}
-
 ### Packet to Equinix Metal rebranding
 
 Packet has got rebranded to Equinix Metal. We have changed the name of the
@@ -109,4 +107,5 @@ The new API version also introduces many new features. We recommend checking
 [the KubeOne 1.4.0 release changelog][changelog] for more information about the
 new features.
 
+[mirror-registries]: {{< pref path="guides/mirror-registries" >}}
 [changelog]: https://github.com/kubermatic/kubeone/blob/main/CHANGELOG.md#v140---2022-02-16

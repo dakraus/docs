@@ -23,7 +23,7 @@ dedicated, non-administrator credentials whenever it's possible.
 
 {{% notice note %}}
 You can skip this document if you're deploying to bare-metal or provider that's
-not [natively supported]({{< ref "../../architecture/supported-providers/" >}}).
+not [natively supported]({{< pref path="architecture/supported-providers/" >}}).
 {{% /notice %}}
 
 {{% notice note %}}
@@ -322,7 +322,7 @@ support for sourcing value using the `env:` prefix:
 | `hosts.ssh_agent_socket` | string | ""            | Socket to be used for SSH |
 
 [cloud-controller-manager]: https://kubernetes.io/docs/concepts/architecture/cloud-controller/
-[machine-controller]: {{< ref "../../architecture/concepts/#kubermatic-machine-controller" >}}
-[containerruntime-containerd]: {{< ref "../../references/kubeone-cluster-v1beta2/#containerruntimecontainerd" >}}
-[migrating-to-containerd]: {{< ref "../../guides/containerd-migration" >}}
+[machine-controller]: {{< pref path="architecture/concepts/#kubermatic-machine-controller" >}}
+[containerruntime-containerd]: {{< pref path="references/kubeone-cluster-v1beta2/#containerruntimecontainerd" >}}
+[migrating-to-containerd]: {{< pref path="guides/containerd-migration" >}}
 [environemnt-variables]: {{< ref "#environment-variables" >}}

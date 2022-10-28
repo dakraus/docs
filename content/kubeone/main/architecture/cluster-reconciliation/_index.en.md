@@ -86,7 +86,7 @@ the quorum and all cluster data. If it's not possible to repair the cluster
 without affecting the quorum, KubeOne will fail to repair the cluster. In that
 case, [disaster recovery][manual-cluster-recovery] might be required.
 
-[manual-cluster-recovery]: {{< ref "../../guides/manual-cluster-recovery" >}}
+[manual-cluster-recovery]: {{< pref path="guides/manual-cluster-recovery" >}}
 {{% /notice %}}
 
 ### Reconciling Dynamic Worker Nodes (MachineDeployments)
@@ -124,4 +124,4 @@ You don't have to change the Kubernetes version, instead, you can use the
 kubeone apply --manifest config.yaml -t . --force-upgrade
 ```
 
-[disaster-recovery]: {{< ref "../../guides/manual-cluster-recovery" >}}
+[disaster-recovery]: {{< pref path="guides/manual-cluster-recovery" >}}

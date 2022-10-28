@@ -38,7 +38,7 @@ the box. Generally, KubeOne runs the following tasks:
 * create worker nodes by creating the appropriate MachineDeployment object(s)
 
 {{% notice note %}}
-Kubermatic machine-controller works only on [natively-supported providers]({{< ref "../../architecture/supported-providers/" >}}), so we can't use it for bare metal setups. Instead, we'll create worker nodes manually and use the KubeOne Static Worker Nodes feature to provision those worker nodes.
+Kubermatic machine-controller works only on [natively-supported providers]({{< pref path="architecture/supported-providers/" >}}), so we can't use it for bare metal setups. Instead, we'll create worker nodes manually and use the KubeOne Static Worker Nodes feature to provision those worker nodes.
 {{% /notice %}}
 
 ### Infrastructure Management
@@ -389,22 +389,22 @@ and recommendations.
 * Learn more about Kubermatic machine-controller and how we use it to create
   worker nodes in [the following guide][machine-controller]
 
-[compatibility-providers]: {{< ref "../../architecture/supported-providers/" >}}
-[static-workers]: {{< ref "../../guides/static-workers" >}}
-[creating-clusters]: {{< ref "../creating-clusters" >}}
-[infrastructure-management]: {{< ref "../../architecture/requirements/infrastructure-management" >}}
-[metrics-server]: https://github.com/kubernetes-sigs/metrics-server
-[nodelocaldns]: https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/
-[machine-controller]: {{< ref "../../guides/machine-controller" >}}
-[getting-kubeone]: {{< ref "../../getting-kubeone" >}}
-[cluster-reconciliation]: {{< ref "../../architecture/cluster-reconciliation" >}}
+[compatibility-providers]: {{< pref path="architecture/supported-providers/" >}}
+[create-cluster-oidc]: {{< pref path="tutorials/creating-clusters-oidc" >}}
+[creating-clusters]: {{< pref path="tutorials/creating-clusters" >}}
+[cluster-reconciliation]: {{< pref path="architecture/cluster-reconciliation" >}}
+[configuring-ssh]: {{< pref path="guides/ssh" >}}
+[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[ha-load-balancing]: {{< pref path="examples/ha-load-balancing" >}}
+[infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
+[machine-controller]: {{< pref path="guides/machine-controller" >}}
+[production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}
+[static-workers]: {{< pref path="guides/static-workers" >}}
+[supported-os]: {{< pref path="architecture/compatibility/os-support-matrix/" >}}
+[unprovisioning-clusters]: {{< pref path="tutorials/unprovisioning-clusters" >}}
+[upgrading-clusters]: {{< pref path="tutorials/upgrading-clusters" >}}
 [access-clusters]: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
-[upgrading-clusters]: {{< ref "../upgrading-clusters" >}}
-[unprovisioning-clusters]: {{< ref "../unprovisioning-clusters" >}}
-[production-recommendations]: {{< ref "../../cheat-sheets/production-recommendations" >}}
-[create-cluster-oidc]: {{< ref "../creating-clusters-oidc" >}}
-[configuring-ssh]: {{< ref "../../guides/ssh" >}}
-[ha-load-balancing]: {{< ref "../../examples/ha-load-balancing" >}}
-[supported-os]: {{< ref "../../architecture/compatibility/os-support-matrix/" >}}
 [kubeadm-sysreq]: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
 [maintenance mode]: https://kubernetes.io/releases/patch-releases/#support-period
+[metrics-server]: https://github.com/kubernetes-sigs/metrics-server
+[nodelocaldns]: https://kubernetes.io/docs/tasks/administer-cluster/nodelocaldns/

@@ -15,7 +15,7 @@ to 1.5. For the complete changelog, please check the
 Make sure to familiarize yourself with the known issues in KubeOne 1.5 before
 upgrading by checking the [Known Issues document][known-issues].
 
-[known-issues]: {{< ref "../../../known-issues" >}}
+[known-issues]: {{< pref path="known-issues" >}}
 
 ## Important Information for RHEL Users on Azure
 
@@ -42,7 +42,7 @@ Before upgrading to KubeOne 1.5, you **MUST**:
   Restart MachineDeployments guide][rollout-mds]. This will cause all Machines
   (Nodes) to get recreated
 
-[rollout-mds]: {{< ref "../../../cheat-sheets/rollout-machinedeployment/" >}}
+[rollout-mds]: {{< pref path="cheat-sheets/rollout-machinedeployment/" >}}
 
 After that is done, you can safely upgrade to KubeOne 1.5.
 
@@ -55,7 +55,7 @@ If you have a Kubernetes cluster running 1.21 or earlier, you need to update to
 Kubernetes 1.22 or newer using KubeOne 1.4. For more information, check out
 the [Kubernetes compatibility document][k8s-compat].
 
-[k8s-compat]: {{< ref "../../../architecture/compatibility/supported-versions/" >}}
+[k8s-compat]: {{< pref path="architecture/compatibility/supported-versions/" >}}
 
 ## Changes in the node-role label, nodeSelectors, and taints/tolerations
 
@@ -114,8 +114,8 @@ If you wish to opt-out from using OSM, check out the [OSM usage guide][osm-usage
 for instructions. This is **NOT** recommended because the old approach is
 considered as legacy and deprecated, and it'll be removed in a future release.
 
-[osm-arch]: {{< ref "../../../architecture/operating-system-manager/" >}}
-[osm-usage]: {{< ref "../../../architecture/operating-system-manager/usage/" >}}
+[osm-arch]: {{< pref path="architecture/operating-system-manager/" >}}
+[osm-usage]: {{< pref path="architecture/operating-system-manager/usage/" >}}
 
 ### Flatcar Provisioning Utility
 
