@@ -1,8 +1,11 @@
 +++
-title = "Unprovisioning Clusters"
+title = "Unprovision a cluster"
 date = 2021-02-10T12:00:00+02:00
-weight = 7
+weight = 4
 enableToc = true
+aliases = [
+  "/kubeone/main/tutorials/unprovisioning-clusters/"
+]
 +++
 
 {{% notice warning %}}

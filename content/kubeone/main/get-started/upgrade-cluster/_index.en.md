@@ -1,8 +1,11 @@
 +++
-title = "Upgrading Clusters"
+title = "Upgrade a cluster"
 date = 2021-02-10T12:00:00+02:00
-weight = 5
+weight = 2
 enableToc = true
+aliases = [
+  "/kubeone/main/tutorials/upgrading-clusters/"
+]
 +++
 
 ## Scope of The Upgrade Process

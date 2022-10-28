@@ -208,8 +208,8 @@ That is it! You have successfully deployed Kubernetes autoscaler on the KubeOne 
 [concepts]: {{< pref path="architecture/concepts/" >}}
 [machine-controller]: {{< pref path="guides/machine-controller/" >}}
 [addons]: {{< pref path="guides/addons/" >}}
-[cluster-creation]: {{< pref path="tutorials/creating-clusters/" >}}
-[step-5]: {{< pref path="tutorials/creating-clusters/#step-5" >}}
+[cluster-creation]: {{< pref path="get-started/create-cluster" >}}
+[step-5]: {{< pref path="get-started/create-cluster/#step-5" >}}
 [embedded-addons]: {{< pref path="guides/addons/#overriding-embedded-eddons" >}}
 [ca-faq]: https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md
 [ca-faq-what-is]: https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/FAQ.md#what-is-cluster-autoscaler

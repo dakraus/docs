@@ -1,8 +1,11 @@
 +++
-title = "Creating a Kubernetes Cluster"
+title = "Create a cluster"
 date = 2021-02-10T12:00:00+02:00
 weight = 1
 enableToc = true
+aliases = [
+  "/kubeone/main/tutorials/creating-clusters/"
+]
 +++
 
 In this tutorial, we're going to show how to use Kubermatic KubeOne to create
@@ -1059,8 +1062,8 @@ and recommendations.
 [production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}
 [static-workers]: {{< pref path="guides/static-workers" >}}
 [terraform-configs]: {{< pref path="guides/using-terraform-configs" >}}
-[unprovisioning-clusters]: {{< pref path="tutorials/unprovisioning-clusters" >}}
-[upgrading-clusters]: {{< pref path="tutorials/upgrading-clusters" >}}
+[unprovisioning-clusters]: {{< pref path="get-started/unprovision-cluster" >}}
+[upgrading-clusters]: {{< pref path="get-started/upgrade-cluster" >}}
 [access-clusters]: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
 [download-terraform]: https://www.terraform.io/downloads.html
 [install-terraform]: https://learn.hashicorp.com/tutorials/terraform/install-cli

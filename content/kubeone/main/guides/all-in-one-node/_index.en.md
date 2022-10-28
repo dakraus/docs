@@ -64,4 +64,4 @@ In case if you don't use terraform but rather write whole config manually:
 ```
 
 [taints-glossary]: https://kubernetes.io/docs/reference/glossary/?core-object=true#term-taint
-[kubeone-tutorial]: {{< pref path="tutorials/creating-clusters/" >}}
+[kubeone-tutorial]: {{< pref path="get-started/create-cluster" >}}

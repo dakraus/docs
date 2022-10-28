@@ -391,7 +391,7 @@ and recommendations.
 
 [compatibility-providers]: {{< pref path="architecture/supported-providers/" >}}
 [create-cluster-oidc]: {{< pref path="tutorials/creating-clusters-oidc" >}}
-[creating-clusters]: {{< pref path="tutorials/creating-clusters" >}}
+[creating-clusters]: {{< pref path="get-started/create-cluster" >}}
 [cluster-reconciliation]: {{< pref path="architecture/cluster-reconciliation" >}}
 [configuring-ssh]: {{< pref path="guides/ssh" >}}
 [getting-kubeone]: {{< pref path="get-kubeone" >}}
@@ -401,8 +401,8 @@ and recommendations.
 [production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}
 [static-workers]: {{< pref path="guides/static-workers" >}}
 [supported-os]: {{< pref path="architecture/compatibility/os-support-matrix/" >}}
-[unprovisioning-clusters]: {{< pref path="tutorials/unprovisioning-clusters" >}}
-[upgrading-clusters]: {{< pref path="tutorials/upgrading-clusters" >}}
+[unprovisioning-clusters]: {{< pref path="get-started/unprovision-cluster" >}}
+[upgrading-clusters]: {{< pref path="get-started/upgrade-cluster" >}}
 [access-clusters]: https://kubernetes.io/docs/tasks/access-application-cluster/configure-access-multiple-clusters/
 [kubeadm-sysreq]: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin
 [maintenance mode]: https://kubernetes.io/releases/patch-releases/#support-period
