@@ -1053,7 +1053,7 @@ and recommendations.
 [cluster-reconciliation]: {{< pref path="architecture/cluster-reconciliation" >}}
 [compatibility-providers]: {{< pref path="architecture/supported-providers/" >}}
 [create-cluster-oidc]: {{< pref path="tutorials/creating-clusters-oidc" >}}
-[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[getting-kubeone]: {{< pref path="get-kubeone" >}}
 [infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
 [machine-controller]: {{< pref path="guides/machine-controller" >}}
 [production-recommendations]: {{< pref path="cheat-sheets/production-recommendations" >}}

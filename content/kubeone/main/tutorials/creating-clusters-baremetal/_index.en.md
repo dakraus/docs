@@ -394,7 +394,7 @@ and recommendations.
 [creating-clusters]: {{< pref path="tutorials/creating-clusters" >}}
 [cluster-reconciliation]: {{< pref path="architecture/cluster-reconciliation" >}}
 [configuring-ssh]: {{< pref path="guides/ssh" >}}
-[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[getting-kubeone]: {{< pref path="get-kubeone" >}}
 [ha-load-balancing]: {{< pref path="examples/ha-load-balancing" >}}
 [infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
 [machine-controller]: {{< pref path="guides/machine-controller" >}}

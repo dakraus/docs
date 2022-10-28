@@ -187,7 +187,7 @@ may cause all resources to be recreated causing the **data loss**!
 [configuring-credentials]: {{< pref path="guides/credentials" >}}
 [configuring-ssh]: {{< pref path="guides/ssh" >}}
 [configuring-ssh-noagent]: {{< pref path="guides/ssh#option-2-specify-private-key-in-the-terraform-output" >}}
-[getting-kubeone]: {{< pref path="getting-kubeone" >}}
+[getting-kubeone]: {{< pref path="get-kubeone" >}}
 [infrastructure-management]: {{< pref path="architecture/requirements/infrastructure-management" >}}
 [github-releases]: https://github.com/kubermatic/kubeone/releases
 [gobetween]: http://gobetween.io/

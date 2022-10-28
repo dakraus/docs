@@ -1,8 +1,11 @@
 +++
-title = "Getting KubeOne"
+title = "Get KubeOne"
 date = 2020-07-30T12:00:00+02:00
 weight = 1
 enableToc = true
+aliases = [
+  "/kubeone/main/getting-kubeone/"
+]
 +++
 
 ## Install KubeOne using the script
