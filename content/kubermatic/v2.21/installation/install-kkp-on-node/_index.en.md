@@ -14,12 +14,12 @@ This chapter will guide you through the KKP Master setup on a single master/work
 
 In this **Get Started with KKP** guide, we will be using AWS Cloud as our underlying infrastructure and KKP release v2.18.4.
 
-> For more information on the kubeone configurations for different environment, checkout the [Creating the kubernetes Cluster using Kubeone]({{< relref "../../../../kubeone/v1.5/tutorials/creating-clusters/" >}}) documentation.
+> For more information on the kubeone configurations for different environment, checkout the [Creating the kubernetes Cluster using Kubeone]({{< pref product="kubeone" version="v1.5" path="tutorials/creating-clusters" >}}) documentation.
 
 ## Prerequisites
 
 1. [Terraform >v1.0.0](https://www.terraform.io/downloads)
-2. [Kubeone](https://github.com/kubermatic/kubeone/releases/tag/v1.4.0)
+2. [Kubeone](https://github.com/kubermatic/kubeone/releases/tag/v1.5.0)
 
 ## Download the repository
 

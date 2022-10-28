@@ -9,7 +9,7 @@ have access to your Master Kubernetes cluster locally, follow these steps.
 
 ## Prerequisites
 Make sure that you have following tools installed locally:
- * [kubeone]({{< ref "../../../../../kubeone/main/getting-kubeone/" >}})
+ * [kubeone]({{< pref product="kubeone" version="v1.5" path="getting-kubeone" >}})
  * [terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
  * [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 

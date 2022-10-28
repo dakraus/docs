@@ -8,7 +8,7 @@ have access to your Kubernetes cluster locally, follow these steps.
 
 ## Prerequisites
 Make sure that you have following tools installed locally:
- * [KubeOne]({{< ref "../../../../../../kubeone/main/getting-kubeone/" >}})
+ * [KubeOne]({{< pref product="kubeone" version="main" path="getting-kubeone" >}})
  * [Terraform](https://learn.hashicorp.com/tutorials/terraform/install-cli)
  * [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
